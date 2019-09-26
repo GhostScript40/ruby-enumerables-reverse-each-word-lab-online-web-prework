@@ -1,3 +1,3 @@
 def reverse_each_word(sentence1)
 sentence_array = sentence1.split(' ')
-sentence1 = sentence_array{|str| str.reverse}
+reversed_array = sentence_array.map{|str| str.reverse}
